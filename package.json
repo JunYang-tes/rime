@@ -1,0 +1,28 @@
+{
+  "name": "rime",
+  "version": "1.0.0",
+  "description": "A CLI tool to create rime dict.yaml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "node dist/main.js"
+  },
+  "keywords": [
+    "rime",
+    "words",
+    "sougo"
+  ],
+  "author": "Qianba",
+  "license": "MIT",
+  "dependencies": {
+    "@types/js-yaml": "^3.5.29",
+    "@types/node": "^7.0.5",
+    "@types/progress": "^1.1.28",
+    "debug": "^2.6.1",
+    "js-yaml": "^3.8.2",
+    "line-reader": "^0.4.0",
+    "options": "^0.0.6",
+    "pipe": "https://github.com/OuyangQianba/pipe.git",
+    "progress": "^1.1.8"
+  }
+}
